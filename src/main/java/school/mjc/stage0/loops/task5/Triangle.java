@@ -5,7 +5,7 @@ public class Triangle {
         StringBuilder result = new StringBuilder();
         for(int i = 0;i < cathetusLength;i++){
             for(int y = 0;y <= i;y++){
-                result.append("8");
+                result.append('8');
             }
             result.append(System.lineSeparator());
         }
